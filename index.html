@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax ecommerce gallery website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav class="navigation">
+        <div class="brand">
+
+            <h1>Home</h1>
+
+        </div>
+        <ul class="menu__items">
+            <li>Contact</li>
+            <li>About</li>
+            <li>Cart (0)</li>
+
+        </ul>
+    </nav>
+    <main>
+
+        <div class="headingcontainer">
+            <div>
+                <h1>Lorem</h1>
+            </div>
+            <div>
+                <h1>Ipsum</h1>
+            </div>
+
+        </div>
+        <div class="products">
+
+            <div class="block" id="trigger0">
+
+
+            </div>
+            <div class="block thumbnail" id="image1">
+
+
+            </div>
+            <div class="block"></div>
+            <div class="block thumbnail"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block" id="trigger2"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+
+            <div class="block" id="trigger3"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block" id="trigger4"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+            <div>
+                <h2>ABOUT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique sunt sit voluptatibus quis ullam id blanditiis tempora veritatis ea porro accusantium
+                    modi ipsum assumenda culpa dolorum, nesciunt iure a possimus?</p>
+            </div>
+            <div></div>
+            <div class="flex-column">
+                <h2>CATEGORIES</h2>
+                <ul>
+                    <li> Clothing</li>
+                    <li> Portrait</li>
+                    <li> Art</li>
+                    <li> Footwear</li>
+                    <li> Sport</li>
+
+                </ul>
+
+            </div>
+            <div class="flex-column">
+                <h2>QUICK LINKS</h2>
+                <ul>
+                    <li> About Us</li>
+                    <li> Contact Us</li>
+                    <li> Contribute</li>
+                    <li> Privacy Policy</li>
+                    <li> Sitemap</li>
+                </ul>
+
+            </div>
+        </div>
+        <DIV class="copyright">
+
+            <span>Copyright © 2021 All Rights Reserved.</span>
+            <div class="social">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M14 19h5V5H5v14h7v-5h-2v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 13.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H16c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5zM4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z" />
+                </svg>
+            </div>
+        </DIV>
+
+    </footer>
+</body>
+
+<script>
+
+    let imgs = [
+        "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80", // 1
+        "https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=682&q=80", // 2
+        "https://images.unsplash.com/photo-1568054043324-86c349f926d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3648&q=80", // 3
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=740&q=80", // 4
+        "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1662&q=80", //5
+        "https://images.unsplash.com/photo-1503342394128-c104d54dba01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80", //6
+        "https://images.unsplash.com/photo-1581963320366-611aeb6a9e0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80", // 7
+        "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80", //8 
+        "https://images.unsplash.com/photo-1467632499275-7a693a761056?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3456&q=80", // 9
+        "https://images.unsplash.com/photo-1585487000143-9bcec9b8e483?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=782&q=80", // 10
+
+    ];
+
+    function buildImageIndexes() {
+        if (!imgs || imgs.length <= 4) throw 'Invalid number of images';
+
+        let ret = [1, 3, 4, 6];
+        for (let i = 0; i < imgs.length - 4; i++) {
+            ret.push(ret[i] + 8);
+        }
+        return ret;
+    }
+
+    function setupBackgroundImages() {
+        var imageIndexsArr = buildImageIndexes();
+        let blocks = document.querySelectorAll('.block');
+        let imgIndex = 0;
+        for (let i = 0; i < blocks.length; i++) {
+
+            if (imageIndexsArr.indexOf(i) >= 0) { // found
+
+                blocks[i].style.backgroundImage = `url(${imgs[imgIndex]})`;
+                imgIndex++;
+            }
+        }
+    }
+
+    function toggleBlocksForMobile(show) {
+        let blocks = document.querySelectorAll('.block');
+        for (let i = 0; i < blocks.length; i++) {
+
+            if (show == true && !blocks[i].style.backgroundImage) { // found
+
+                blocks[i].style.display = 'block';
+            }
+            else if (show == false && !blocks[i].style.backgroundImage) {
+                blocks[i].style.display = 'none';
+            }
+        }
+    }
+
+    function setupAnimation() {
+        var isMobile = window.matchMedia("(max-width: 768px)");        
+        if (isMobile.matches) return;
+
+        gsap.to(".thumbnail:nth-child(n+1):nth-child(-n+4) ", { // first row
+            scrollTrigger: {
+                trigger: "#trigger1",
+                start: "top center", // 1 = target, 2 = viewport
+                scrub: 1
+            },
+            stagger: 0.05,
+            opacity: 0,
+            y: -500,
+        });
+
+        gsap.to(".block:nth-child(n+5):nth-child(-n+8) ", { // second row
+            scrollTrigger: {
+                trigger: "#trigger0",
+                start: "center top", // 1 = target, 2 = viewport
+                scrub: 1
+            },
+            opacity: 0,
+            stagger: 0.05,
+            y: -300,
+        });
+
+        gsap.from(".block:nth-child(n+9):nth-child(-n+12) ", { // third row
+            scrollTrigger: {
+                trigger: "#trigger2",
+                end: "top top", // 1 = target, 2 = viewport
+                scrub: 1
+            },
+            stagger: 0.05,
+            opacity: 0,
+            y: 300,
+        });
+        gsap.from(".block:nth-child(n+13):nth-child(-n+16) ", { // forth row
+            scrollTrigger: {
+                trigger: "#trigger3",
+                end: "top top", // 1 = target, 2 = viewport
+                scrub: 1
+            },
+            stagger: 0.05,
+            opacity: 0,
+            y: 300,
+        });
+
+        gsap.from(".block:nth-child(n+17):nth-child(-n+20) ", { // forth row
+            scrollTrigger: {
+                trigger: "#trigger4",
+                end: "top top", // 1 = target, 2 = viewport
+                scrub: 1
+            },
+            stagger: 0.05,
+            opacity: 0,
+            y: 200,
+        });
+    }
+    (function () {
+
+        setupBackgroundImages();
+        setupAnimation();
+
+        function adjustForMobile(mediaQueryMatch) {
+            if (mediaQueryMatch.matches) { // If media query matches
+                toggleBlocksForMobile(false) // hide empty blocks
+            } else {
+                toggleBlocksForMobile(true) // show empty blocks
+            }
+        }
+
+        var mediaQueryMatch = window.matchMedia("(max-width: 768px)")
+        adjustForMobile(mediaQueryMatch) // Call listener function at run time
+        mediaQueryMatch.addListener(adjustForMobile) // Attach listener function on state changes
+
+
+    })();
+
+</script>
+
+</html>
