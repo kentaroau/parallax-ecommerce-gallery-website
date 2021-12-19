@@ -10,3 +10,6 @@ Code along here: https://youtu.be/MZB9Gs_LLJg
 - HTML, CSS
 - GSAP (animation library)
 - GSAP ScrollTrigger
+
+
+![Preview](screely-1639872147226.png)
