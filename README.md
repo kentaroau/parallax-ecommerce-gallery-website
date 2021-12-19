@@ -1,10 +1,12 @@
 # Parallax ecommerce gallery website
 
 
-Parallax ecommerce gallery website design for ecommerce/ clothing store. Code along here: https://youtu.be/MZB9Gs_LLJg
+Parallax ecommerce gallery website design for ecommerce/ clothing store. 
 
-Tech used:
+Code along here: https://youtu.be/MZB9Gs_LLJg
 
-HTML, CSS
-GSAP (animation library)
-GSAP ScrollTrigger
+## Tech used:
+
+- HTML, CSS
+- GSAP (animation library)
+- GSAP ScrollTrigger
