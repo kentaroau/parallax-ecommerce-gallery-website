@@ -1,1 +1,1 @@
-# parallax-ecommerce-gallery-website
+# Parallax ecommerce gallery website design
